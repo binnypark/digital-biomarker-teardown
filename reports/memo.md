@@ -17,7 +17,7 @@ A wearable can detect neurodegenerative gait decline well — a random-forest cl
 
 **Limitations:**
 - Only 16 controls, so specificity estimates are unstable (held-out control recall was 0.50 on 4 subjects — one patient swings it 25 points). The CV AUC is the trustworthy number; any single split is noisy at this sample size.
-- The dataset is ALS/HD/PD, not the senior cognitive-decline population a company like RemNeuro targets. The *method* transfers; the specific model would need revalidation on the target population before any clinical claim.
+- The dataset is ALS/HD/PD, not the senior cognitive-decline population. The *method* transfers; the specific model would need revalidation on the target population before any clinical claim.
 
 ## 2. The market
 
